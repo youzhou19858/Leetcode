@@ -29,7 +29,7 @@ bool search(It curr, It end){
     return node->isWord;
 }
 public:
-    Solution(): root {std::make_unique<TrieNode>()} {}
+    Solution(): root{std::make_unique<TrieNode>()}{}
     int minExtraChar(string s, vector<string> dictionary) {
         for(auto& word: dictionary){
             this->insert(word.cbegin(), word.cend());
