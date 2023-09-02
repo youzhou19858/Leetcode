@@ -4,6 +4,10 @@
   },
   "python.formatting.provider": "none",
   "files.associations": {
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "ostream": "cpp",
+    "*.tcc": "cpp",
+    "random": "cpp",
+    "limits": "cpp"
   }
 }
