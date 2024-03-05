@@ -6,6 +6,7 @@
 #include <map>
 #include <memory>
 #include <numeric>
+#include <queue>
 #include <set>
 #include <string>
 #include <unordered_map>
@@ -13,4 +14,14 @@
 #include <utility>
 #include <vector>
 
+#include "cmath"
+
 using namespace std;
+
+template <typename T>
+void printVec(vector<T>& vec) {
+  for (const auto& e : vec) {
+    cout << e << ", ";
+  }
+  cout << endl;
+}

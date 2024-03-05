@@ -20,7 +20,7 @@ class Solution {
         ret.push_back(*aPtr);
         a.erase(a.begin(), a.begin() + (aPtr - &a[0] + 1));
       } else {
-            }
+      }
     }
     return ret;
   }
